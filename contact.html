@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="x-icon" href="img/favicon.ico">
+    <title>Fast HBS Site</title>
+</head>
+
+<body onload="document.body.style.opacity='1'" class="side-col">
+    <div class="header">
+        <main>
+            <nav class="grey darken-4">
+                <div class="nav-wrapper">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="left hide-on-med-and-down">
+                        <li><a class="waves-effect waves-light" href="index.html">Home</a></li>
+                        <li><a class="waves-effect waves-light dropdown-trigger" data-target="product-main"
+                                href="#">Products <i class="material-icons right">arrow_drop_down</i></a>
+                            <ul id="product-main" class="dropdown-content">
+                                <li><a class="waves-effect waves-light" href="#">Product A</a></li>
+                                <li><a class="waves-effect waves-light" href="#">Product B</a></li>
+                                <li><a class="waves-effect waves-light" href="#">Product C</a></li>
+                                <li><a class="waves-effect waves-light" href="#">Product D</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="waves-effect waves-light dropdown-trigger" data-target="tech-main"
+                                href="#">Technology <i class="material-icons right">arrow_drop_down</i></a>
+                            <ul id="tech-main" class="dropdown-content">
+                                <li><a class="waves-effect waves-light" href="#">Tech 1</a></li>
+                                <li><a class="waves-effect waves-light" href="#">Tech 2</a></li>
+                                <li><a class="waves-effect waves-light" href="#">Tech 3</a></li>
+                                <li><a class="waves-effect waves-light" href="#">Tech 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="waves-effect waves-light" href="about.html">About</a></li>
+                        <li><a class="waves-effect waves-light" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <ul id="slide-out" class="sidenav">
+                <li><a class="waves-effect waves-light" href="index.html">Home</a></li>
+                <li><a class="waves-effect waves-light dropdown-trigger" data-target="product-list" href="#">Products <i
+                            class="material-icons right">more_vert</i></a>
+                    <ul id="product-list" class="dropdown-content">
+                        <li><a class="waves-effect waves-light" href="#">Product A</a></li>
+                        <li><a class="waves-effect waves-light" href="#">Product B</a></li>
+                        <li><a class="waves-effect waves-light" href="#">Product C</a></li>
+                        <li><a class="waves-effect waves-light" href="#">Product D</a></li>
+                    </ul>
+                </li>
+                <li><a class="waves-effect waves-light dropdown-trigger" data-target="tech-list" href="#">Technology <i
+                            class="material-icons right">more_vert</i></a>
+                    <ul id="tech-list" class="dropdown-content">
+                        <li><a class="waves-effect waves-light" href="#">Tech 1</a></li>
+                        <li><a class="waves-effect waves-light" href="#">Tech 2</a></li>
+                        <li><a class="waves-effect waves-light" href="#">Tech 3</a></li>
+                        <li><a class="waves-effect waves-light" href="#">Tech 4</a></li>
+                    </ul>
+                </li>
+                <li><a class="waves-effect waves-light" href="about.html">About</a></li>
+                <li><a class="waves-effect waves-light" href="contact.html">Contact Us</a></li>
+            </ul>
+        </main>
+    </div>
+    <div class="about-section">
+        <div class="container">
+            <h2 class="content">Contact Us</h2>
+            <div class="row top">
+                <div class="col l5 m12 s12">
+                    <i class="material-icons">business</i>
+                    <address>
+                        US Tech Firm<br>
+                        1640 Riverside Dr.<br>
+                        Hill Valley CA. 95945<br>
+                        <a href="tel:619.929.7746">619.929.7746</a>
+                    </address>
+                </div>
+                <form class="col l7 m12 s12">
+                    <p class="light left">We would love nothing better than to hear from you. Are you planning to
+                        remodel? Maybe dreaming up a new modern design for your house, or anything else inbetween; we'd
+                        love to find out how we can help you make your next project a reality. </p>
+                    <div class="input-field col s12 m12 l12">
+                        <input id="name" type="text" class="validate">
+                        <label for="name" class="">Name</label>
+                    </div>
+                    <div class="input-field col s12 m12 l12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email" data-error="invalid" data-success="valid">Email</label>
+                    </div>
+                    <div class="input-field col s12 m12 l12">
+                        <textarea id="textArea" class="materialize-textarea"></textarea>
+                        <label for="textArea">Message</label>
+                    </div>
+                    <a class="waves-effect waves-light btn grey submit" tabindex="0">Submit<i
+                            class="material-icons right">send</i></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 s12">
+                    <h5 class="white-text">US Tech Firm</h5>
+                    <p class="grey-text text-lighten-4">
+                        <address>
+                            1640 Riverside Drive<br />
+                            Hill Valley, CA. 95945<br />
+                            <a href="tel:619.929.7746">619.929.7746</a>
+                        </address>
+                    </p>
+                </div>
+                <div class="col l6 s12">
+                    <h5 class="white-text">Quick Connect</h5>
+                    <form class="col l8 s12">
+                        <div class="input-field col s12 m12 l12">
+                            <input class="white-text" id="name" type="text" class="validate" />
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="input-field col s12 m12 l12">
+                            <input class="white-text" id="email" type="email" class="validate" />
+                            <label for="email" data-error="invalid" data-success="valid">Email</label>
+                        </div>
+                        <div class="input-field col s12 m12 l12">
+                            <textarea id="textArea" class="materialize-textarea white-text"></textarea>
+                            <label for="textArea" class="">Message</label>
+                        </div>
+                        <a class="waves-effect waves-light btn grey submit" tabindex="0">Submit<i
+                                class="material-icons right">send</i></a>
+                    </form>
+                </div>
+                <div class="col l3 s12">
+                    <h5>Site Map</h5>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Product</a>
+                            <ul class="footer-list">
+                                <li><a href="#">Product A</a></li>
+                                <li><a href="#">Product B</a></li>
+                                <li><a href="#">Product C</a></li>
+                                <li><a href="#">Product D</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Technology</a>
+                            <ul class="footer-list">
+                                <li><a href="#">Tech 1</a></li>
+                                <li><a href="#">Tech 2</a></li>
+                                <li><a href="#">Tech 3</a></li>
+                                <li><a href="#">Tech 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-3">
+            <div class="container center">
+                <span id="copyright">Images and Content Copyright @
+                    <script>
+                        document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                        .getFullYear()))
+                    </script>
+                </span> <a href="/">US Tech Firm</a><br> 1640 Riverside Dr. | Hill Valley CA. 95945</div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        M.AutoInit();
+    </script>
+</body>
+
+</html>

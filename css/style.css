@@ -1,0 +1,210 @@
+
+/* Fade in color effect */
+/*body.main-layout{
+	background: linear-gradient(-45deg, #2F6FA3, #3EB4F0, #88EEFF, #7EFFD4, #57B597);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 20s ease infinite;
+	        animation: gradient 20s ease infinite;
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}*/
+
+body.main-layout {
+	background: url(../img/home-bg.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	opacity: 0;
+    transition: opacity 5s;
+}
+
+body.side-col {
+    background-color: #fff;
+	opacity: 0;
+    transition: opacity 5s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+address {
+	font-size: 1.7rem;
+}
+
+/* Custom CSS/Overrides for navigation */
+nav a.sidenav-trigger i {
+	font-size: 3.2rem;
+}
+
+nav {
+	background-color: #3EB4F0;
+}
+
+nav ul a {
+	font-size: 1.3rem;
+}
+
+nav ul a:hover {
+	background-color: #3EB4F0;
+}
+
+nav .brand-logo {
+	padding-left: 1.1rem;
+}
+
+nav .button-collapse {
+	font-size: 4.2rem;
+}
+
+.sidenav li > a
+ {
+	font-size: 1.4rem;
+}
+
+.sidenav li > a:hover {
+	background-color: #3EB4F0;
+}
+
+.sidenav li > a > i.material-icons {
+	margin: 0;
+}
+
+.dropdown-content li > a {
+	color: #212121;
+}
+
+
+
+
+/* Hero CSS */
+
+h1.home {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-size: 4.2rem; 
+	padding-top: .80em;
+}
+
+h2, h3, h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 3.5rem;
+	margin-top: 0;
+}
+
+a.learn-more {
+	margin-top: 1.7em;
+}
+
+
+/* Button overrides for Hover state - hate using important tags, but here we are ¯\_(ツ)_/¯ */
+
+a.btn-large:hover {
+	background-color: grey !important;
+}
+
+a.btn.submit:hover {
+	background-color: #bdbdbd !important;
+}
+
+
+.container .about-us {
+	background: #fff;
+}
+
+/* HOME PAGE SECTION*/
+
+
+
+/* Card Section Overrides*/
+
+.card-section {
+	background-color: #fff;
+	padding: 4em 0;
+}
+
+.card .card-image .card-title {
+	color: #37474f; 
+	font-family: 'Playfair Display', serif;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+	color: #37474f
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating):hover {
+	color: #b0bec5;
+	text-decoration: underline;
+}
+
+.card.medium {
+	height: 575px;
+}
+
+
+/* Contact Us Section */
+
+.cta-section p {
+	padding: 1em;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.cta-section a.submit {
+	margin-top: 25px;
+}
+
+/* Beefits Section*/
+
+.benefits-section {
+	background-color: #fff;
+	padding-bottom: 10em;
+}
+
+h2.home {
+	padding: 1.7em 0;
+}
+
+.row.top {
+	padding-bottom: 5em;
+}
+
+
+
+/* FOOTER SECTION */
+ul.footer-list {
+	padding-left: 1.5rem;
+}
+
+
+/* About Us page*/
+
+h2.content {
+	padding: 1.3em 0;
+	margin: 0;
+}
