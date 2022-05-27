@@ -4,5 +4,5 @@ Free Materialize CSS starter template. Includes three pages and two templates:
 * internal 2-col page
 * contact page
 
-Live preview:
+Live preview:  https://spontaneous-sunburst-b6dd63.netlify.app/index.html
 
