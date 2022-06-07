@@ -40,13 +40,13 @@ body.main-layout {
 	background-size: cover;
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 0.8s;
 }
 
 body.side-col {
     background-color: #fff;
 	opacity: 0;
-    transition: opacity 1s;
+    transition: opacity 0.8s;
 }
 
 a:hover {
