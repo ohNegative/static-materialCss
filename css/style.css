@@ -40,13 +40,13 @@ body.main-layout {
 	background-size: cover;
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	opacity: 0;
-    transition: opacity 5s;
+    transition: opacity 1s;
 }
 
 body.side-col {
     background-color: #fff;
 	opacity: 0;
-    transition: opacity 5s;
+    transition: opacity 1s;
 }
 
 a:hover {
@@ -55,7 +55,7 @@ a:hover {
 
 
 address {
-	font-size: 1.7rem;
+	font-size: 1.2rem;
 }
 
 /* Custom CSS/Overrides for navigation */
@@ -104,19 +104,6 @@ nav .button-collapse {
 
 
 /* Hero CSS */
-
-h1.home {
-	font-family: 'Open Sans', Verdana, Arial, sans-serif;
-	font-size: 4.2rem; 
-	padding-top: .80em;
-}
-
-h2, h3, h4 {
-	font-family: 'Playfair Display', serif;
-	font-size: 3.5rem;
-	margin-top: 0;
-}
-
 a.learn-more {
 	margin-top: 1.7em;
 }
@@ -150,7 +137,6 @@ a.btn.submit:hover {
 
 .card .card-image .card-title {
 	color: #37474f; 
-	font-family: 'Playfair Display', serif;
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
